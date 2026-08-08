@@ -15,8 +15,8 @@ This model is a small decoder-only Transformer that learns to predict the next t
 The overall pipeline is:
 
 Text Dataset
-
-↓
+\n
+↓\n
 Custom Vocabulary
 
 ↓
