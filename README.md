@@ -15,35 +15,45 @@ This model is a small decoder-only Transformer that learns to predict the next t
 The overall pipeline is:
 
 Text Dataset
-\n
-↓\n
+
+↓
+
 Custom Vocabulary
 
 ↓
+
 Token IDs
 
 ↓
+
 Token Embeddings
 
 ↓
+
 Positional Embeddings
 
 ↓
+
 Transformer Blocks
 
 ↓
+
 Causal Self-Attention
 
 ↓
+
 Multi-Head Attention
 
 ↓
+
 Feed Forward Network
 
 ↓
+
 Language Model Head
 
 ↓
+
 Next Token Prediction
 
 The model is trained using cross-entropy loss.
